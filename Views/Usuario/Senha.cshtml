@@ -1,0 +1,90 @@
+﻿@model ResetSenhaViewModel
+@{
+    ViewData["Title"] = "Recuperar Senha";
+}
+
+<form id="resetPasswordForm" aria-labelledby="resetPasswordTitle" class="container mt-5" style="max-width: 400px; margin: auto;">
+    <h2 id="resetPasswordTitle" class="mb-4 text-center">Recuperar Senha</h2>
+
+    <!-- Campo de email -->
+    <div data-mdb-input-init class="form-outline mb-3">
+        <input type="email" id="email" class="form-control" required aria-required="true" />
+        <label class="form-label" for="email">Endereço de e-mail</label>
+    </div>
+
+    <!-- Campo de nova senha -->
+    <div data-mdb-input-init class="form-outline mb-3">
+        <input type="password" id="newPassword" class="form-control" required aria-required="true" />
+        <label class="form-label" for="newPassword">Nova Senha</label>
+    </div>
+
+    <!-- Campo de confirmar nova senha -->
+    <div data-mdb-input-init class="form-outline mb-3">
+        <input type="password" id="confirmNewPassword" class="form-control" required aria-required="true" />
+        <label class="form-label" for="confirmNewPassword">Confirmar Nova Senha</label>
+    </div>
+
+    <!-- Botão de confirmação -->
+    <!-- Botão de confirmação -->
+<div class="text-center mb-3">
+    <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block">Confirmar Alteração</button>
+</div>
+
+
+</form>
+
+<style>
+  body {
+      background-color: #f8f9fa; /* Cor de fundo suave */
+      font-family: Arial, sans-serif; /* Fonte moderna */
+  }
+
+  #resetPasswordForm {
+      background-color: #d8d6d6; /* Fundo do formulário */
+      border-radius: 8px; /* Bordas arredondadas */
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+      padding: 20px; /* Espaçamento interno */
+      transition: box-shadow 0.3s ease; /* Transição suave para sombra */
+  }
+
+  #resetPasswordForm:hover {
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o mouse */
+  }
+
+  .form-outline {
+      position: relative;
+      margin-bottom: 1rem; /* Ajuste da margem inferior */
+  }
+
+  .form-control {
+      border: 1px solid #000000; /* Borda padrão */
+      border-radius: .375rem; /* Bordas arredondadas */
+      padding: .375rem .75rem; /* Espaçamento interno */
+      transition: border-color .15s ease-in-out; /* Transição suave para a borda */
+  }
+
+  .form-control:focus {
+      border-color: #007bff; /* Cor da borda ao focar */
+      box-shadow: none; /* Remove sombra padrão do Bootstrap */
+  }
+
+  .btn-primary {
+      background-color: #007bff; /* Cor do botão */
+      border-color: #007bff; /* Cor da borda do botão */
+      border-radius: .375rem; /* Bordas arredondadas */
+      padding: .5rem; /* Espaçamento interno do botão */
+      font-size: large; /* Tamanho da fonte do botão */
+      transition: background-color .3s ease, border-color .3s ease; /* Transições suaves */
+      width: auto; /* Largura automática para centralização adequada */
+  }
+
+  .btn-primary:hover {
+      background-color: #0056b3; /* Cor do botão ao passar o mouse */
+      border-color: #0056b3; /* Cor da borda ao passar o mouse */
+  }
+
+  .btn-center {
+    display: flex;
+    justify-content: center;
+  }
+</style>

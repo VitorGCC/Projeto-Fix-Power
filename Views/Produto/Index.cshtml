@@ -1,0 +1,52 @@
+﻿@model List<ProdutoModel>
+@{
+    ViewData["Title"] = "Pagina de Produto";
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/Aula_17_31._10._24.styles.css" asp-append-version="true" />
+<link rel="stylesheet" href="CSS/styles.css">
+<div class="text-center">
+    <h2>Lista de Produtos</h2>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-outline-primary" role="button" asp-controller="Produto" asp-action="Criar">Adicionar
+            produto</a>
+    </div>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Preço</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Descrição</th>
+                <th scope="col"> </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (ProdutoModel produto in Model)
+                {
+                    <tr>
+                        <th scope="row">@produto.Id</th>
+                        <td>@produto.Nome</td>
+                        <td>@produto.Preco</td>
+                        <td>@produto.Categoria</td>
+                        <td>@produto.Quantidade</td>
+                        <td>@produto.Descricao</td>
+                        <td>
+                            <div class="btn-group" role="group" aria-label="Exemplo básico">
+                                <a role="button" asp-route-id="@produto.Id" asp-controller="produto" asp-action="Editar"
+                                    class="btn btn-primary">Editar</a>
+                                <a role="button" asp-route-id="@produto.Id" asp-controller="Produto"
+                                    asp-action="VerificarDeletar" type="button" class="btn btn-danger">Deletar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

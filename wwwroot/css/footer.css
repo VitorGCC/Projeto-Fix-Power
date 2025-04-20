@@ -1,0 +1,13 @@
+.footer-cadastro {
+  background-color: #415a66;
+  color: white;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.322),
+      rgba(0, 0, 0, 0.226),
+      rgba(0, 0, 0, 0.411)
+  );
+  width: 100%;
+
+}

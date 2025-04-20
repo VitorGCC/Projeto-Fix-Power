@@ -1,0 +1,279 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+@font-face {
+  font-family: "Masterpiece";
+  font-family: "RaceSport";
+  src: url("/fonts/Masterpiece.ttf") format("truetype");
+  src: url("/fonts/Race Sport.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin-bottom: 0;
+}
+
+.logo {
+  display: flex;
+  margin: 20px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+}
+
+.logo img {
+  display: flex;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 140px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: black 0px 0.1px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.322), rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.411));
+  background-color: #415a66;
+}
+
+.btnPesquisa {
+  font-size: 15px;
+  padding: 5px 10px;
+  line-height: 2;
+  min-width: 60px;
+  max-width: 120px;
+  height: 35px;
+  box-shadow: black 0px 1px 2px;
+  background-color: #74a2ad;
+}
+.btnPesquisa:hover {
+  background-color: #5c8994;
+  box-shadow: black 0px 0.1px 5px;
+}
+
+.btnPesquisa img {
+  opacity: 80%;
+  width: 25px;
+  margin-bottom: 8px;
+}
+
+.searchbar {
+  font-size: 15px;
+  margin-left: 10px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  box-shadow: black 0px 1px 2px;
+  height: 35px;
+}
+
+.pesquisa {
+  width: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+}
+
+.atalhos, .btngerente {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.atalhos ul, .btngerente {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  margin-left: -37px;
+}
+
+.atalhos ul li, .btngerente {
+  margin: 25px;
+}
+
+.atalhos ul li a img, .btngerente {
+  width: 30px;
+}
+.btngerente img{
+  width: 30px;
+}
+
+.atalhos ul li a img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Estilo do Menu Lateral */
+.offcanvas-start {
+  width: 450px;
+}
+
+.offcanvas-body {
+  padding-top: 20px; 
+  padding-left: 15px; 
+}
+
+.offcanvas-body ul {
+  padding-left: 0; 
+}
+
+.offcanvas-body .nav-item {
+  margin-bottom: 10px; 
+}
+
+.offcanvas-body .nav-link {
+  font-size: 18px; 
+  color: #333; 
+}
+
+.offcanvas-body .nav-item.category > .nav-link {
+  font-weight: bold;
+}
+
+.offcanvas-body .nav-link:hover {
+  color: #ff6f61;
+}
+
+.offcanvas-body .nav-item.category {
+  border-bottom: 1px solid #ccc; 
+  padding-bottom: 10px;
+}
+
+#main-content {
+  transition: margin-left 0.3s ease;
+}
+
+body.offcanvas-active #main-content {
+  margin-left: 250px;
+}
+
+.menuLateral img {
+  width: 40px;
+  display: flex;
+}
+
+.menuLateral img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+  border: none;
+  display: flex;
+}
+
+.navB {
+  display: flex;
+}
+
+.menuLateral {
+  margin-bottom: 10px;
+}
+
+.subcategoria {
+  padding-left: 20px;
+  font-size: 16px; 
+  color: #555; 
+}
+
+.subcategoria a {
+  text-decoration: none;
+  color: #555;
+}
+
+.subcategoria a:hover {
+  color: #ff6f61; 
+}
+
+.subcategoria li {
+  margin-bottom: 8px; 
+}
+.nomeLogo {
+  font-family: "RaceSport", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  color: black;
+}
+.nomeElogo{
+  display: flex;
+  align-items: center;
+}
+
+.form-label {
+  color: #6c757d; 
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff; 
+  border-color: #007bff; 
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; 
+}
+
+
+.btn-secondary {
+  background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-floating {
+  width: 40px;
+  height: 40px; 
+}
+
+.form-check-label {
+  margin-left: 5px;
+}
+.sim{
+  text-decoration: none;
+}
+.sim:hover{
+  text-decoration: none;
+}

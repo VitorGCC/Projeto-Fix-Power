@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "Turbo Alimentador TA4502";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+@{
+    Layout = "_Layout";
+}
+@section styles {
+    <link rel="stylesheet" href="~/css/produtos.css">
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+<body>
+    <div class="col-content">
+        <div class="produtos">
+            <span class="breadcrumb-item flex align-center">
+                <a href="/" class="home">Home</a>
+            </span>
+            <span class="breadcrumb-item flex align-center">
+                <a href="/produtos/rodas" class="home">Escapamentos</a>
+            </span>
+            <span class="breadcrumb-item">Escapamento Audi A3 Sedan</span>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Product Images -->
+                <div class="col-md-6 mb-4">
+                    <img src="~/img/Escapamentos/ESCAPAMENTO-AUDI-A3-SEDAN.png" alt="Product"
+                        class="img-fluid rounded mb-3 product-image justify-content-center" id="mainImage">
+                    <div class="d-flex justify-content-center gap-5">
+                        <img src="~/img/Escapamentos/ESCAPAMENTO-AUDI-A3-SEDAN.png" alt="Thumbnail 1" class="thumbnail rounded active"
+                            onclick="changeImage(event, this.src)">
+                    </div>
+                </div>
+
+                <!-- Product Details -->
+                <div class="col-md-6">
+                    <h2 class="mb-3">Escapamento Audi A3 Sedan</h2>
+                    <div class="mb-3">
+                        <div class="primary-price">
+                            <span class="price-big">R$ 6.600,00</span>
+                            <span class="tipo-valor">no pix</span>
+                        </div>
+                        <section class="secondary-price"><span class="parcelas">6x</span>
+                        de <span class="price-parcelado">R$ 1.112,00 </span></section>
+                    </div>
+                    <div class="mb-3">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-half text-warning"></i>
+                        <i class="bi bi-star text-warning"></i>
+                        <span class="ms-2">3.5 (120 reviews)</span>
+                    </div>
+                    <div class="mb-4">
+                        <label for="furation" class="form-label">Acabamento:</label>
+                        <select class="form-control" id="furation" style="width: 150px;">
+                            <option value="PV">Preto e Vermelho</option>
+                            <option value="PB">Preto Brilhante</option>
+                        </select>
+                    </div>
+                         <button class="btn btn-primary btn-lg mb-3 me-2">
+                        <i class="bi bi-cart-plus"></i><a style="color: inherit; text-decoration: none;" asp-controller="Carrinho" asp-action="Index">Adicionar</a>
+                    </button>
+
+                    <div class="mt-4">
+                        <h5>Caracteristicas:</h5>
+                        <ul>
+                            <li>Offset (ET): +38mm</li>
+                            <li>Material: Liga Leve de Alumínio</li>
+                            <li>Certificação do Inmetro</li>
+                            <li>Garantia Fabricante: 12 meses</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/site.js"></script>
+</body>
+
+</html>

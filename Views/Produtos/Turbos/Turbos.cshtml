@@ -1,0 +1,210 @@
+﻿@{
+    ViewData["Title"] = "Produtos";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+@{
+    Layout = "_Layout";
+}
+@section styles {
+    <link rel="stylesheet" href="~/css/produtos.css">
+}
+
+<body>
+    <div class="col-content Pagina">
+        <div class="produtos">
+            <span class="breadcrumb-item flex align-center">
+                <a href="/" class="home">Home</a>
+            </span>
+            <span class="breadcrumb-item">Turbos</span>
+        </div>
+
+        <div class="nomeItem">
+            <h1>TURBOS</h1>
+        </div>
+
+        @* PRIMEIRA FILEIRA ----------------------------------------------------*@
+        <div class="d-flex justify-content-center mt-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <a title="Turbo Alimentador TA4502" asp-controller="Produtos" asp-action="TA4502">
+                            <img src="~/img/turbos/TurboAlimentadorTA4502.png" class="card-img-top"
+                                alt="Turbo Alimentador TA4502" id="turboTA4502">
+                            <div class="card-body">
+                                <p class="card-title">Turbo Alimentador TA4502</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Turbo Alimentador H1E Simples" asp-controller="produtos" asp-action="H1ESimples">
+                            <img src="~/img/turbos/TurboAlimentadorH1ESimples.png" class="card-img-top"
+                                alt="Turbo Alimentador H1E Simples" id="TurboH1E">
+                            <div class="card-body">
+                                <p class="card-title">Turbo Alimentador H1E Simples</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Turbo Alimentador S400 FH12" asp-controller="Produtos" asp-action="S400">
+                            <img src="~/img/turbos/TurboAlimentadorS400FH12.png" class="card-img-top"
+                                alt="Turbo Alimentador S400 FH12">
+                            <div class="card-body">
+                                <p class="card-title">Turbo Alimentador S400 FH12</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Turbo HX40wBUS"asp-controller="produtos" asp-action="HX40wBUS">
+                            <img src="~/img/turbos/HX40wBUS.png" class="card-img-top" alt="Turbo HX40wBUS"
+                                id="HX40wBUS">
+                            <div class="card-body">
+                                <p class="card-title">Turbo HX40wBUS</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @* SEGUNDA FILEIRA -----------------------------------------------------*@
+        <div class="d-flex justify-content-center mt-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <a title="Turbina Garrett G45-1500 A/R 1.15 – 888169-5005S – Garrett" asp-controller="Produtos" asp-action="GarrettG45">
+                            <img src="~/img/turbos/TurbinaGarretG45-1.jpg" class="card-img-top"
+                                alt="Turbo Alimentador TA4502" id="turboTA4502">
+                            <div class="card-body">
+                                <p class="card-title">Turbina Garrett G45-1500 A/R 1.15 – 888169-5005S – Garrett</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Turbina Garrett Onibus" asp-controller="Produtos" asp-action="GarrettBuzu">
+                            <img src="~/img/turbos/Turbina-Garrett-onibus-1.jpg" class="card-img-top"
+                                alt="Turbina Garrett Onibus" id="TurboH1E">
+                            <div class="card-body">
+                                <p class="card-title">Turbina Garrett Onibus</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Turbina Garrett G42" asp-controller="Produtos" asp-action="GarrettG42">
+                            <img src="~/img/turbos/Garrett-Turbo-G42-1.png" class="card-img-top"
+                                alt="Turbina Garrett G42">
+                            <div class="card-body">
+                                <p class="card-title">Turbina Garrett G42</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Turbina Garrett GTX3582R" asp-controller="Produtos" asp-action="GarretGTX">
+                            <img src="~/img/turbos/Turbina-Garret-GTX3582R-1.jpg" class="card-img-top" alt="Turbina Garrett GTX3582R"
+                                id="HX40wBUS">
+                            <div class="card-body">
+                                <p class="card-title">Turbina Garrett GTX3582R</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

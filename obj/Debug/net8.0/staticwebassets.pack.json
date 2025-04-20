@@ -1,0 +1,573 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjetoDs.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProjetoDs.sc9dn5ou25.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\css\\Carrinho.css",
+      "PackagePath": "staticwebassets\\css\\Carrinho.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\css\\Links.css",
+      "PackagePath": "staticwebassets\\css\\Links.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\css\\produtos.css",
+      "PackagePath": "staticwebassets\\css\\produtos.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\fonts\\Masterpiece.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Masterpiece.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\fonts\\Race Sport.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Race Sport.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Carrinho.png",
+      "PackagePath": "staticwebassets\\img\\Carrinho.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-AUDI-A3-SEDAN.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-AUDI-A3-SEDAN.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-AUDI-R8_1.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-AUDI-R8_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-AUDI-R8_2.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-AUDI-R8_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-AUDI-TT-2010_1.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-AUDI-TT-2010_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-AUDI-TT-2010_2.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-AUDI-TT-2010_2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-BMW-320i-SAIDA-SIMPLES-1.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-BMW-320i-SAIDA-SIMPLES-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-BMW-320i-SAIDA-SIMPLES-2.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-BMW-320i-SAIDA-SIMPLES-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-GOLF-MK7-2.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-GOLF-MK7-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-GOLF-MK7.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-GOLF-MK7.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-POLO-GTS-2020-1.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-POLO-GTS-2020-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-POLO-GTS-2020-2.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-POLO-GTS-2020-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-PORSCHE-CARRERA-911-991.2-1.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-PORSCHE-CARRERA-911-991.2-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-PORSCHE-CARRERA-911-991.2-2.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-PORSCHE-CARRERA-911-991.2-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-VOLKSWAGEN-JETTA-TSI-1.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-VOLKSWAGEN-JETTA-TSI-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Escapamentos\\ESCAPAMENTO-VOLKSWAGEN-JETTA-TSI-2.png",
+      "PackagePath": "staticwebassets\\img\\Escapamentos\\ESCAPAMENTO-VOLKSWAGEN-JETTA-TSI-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\LogoWB.png",
+      "PackagePath": "staticwebassets\\img\\LogoWB.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaoFiatEtorq-1.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaoFiatEtorq-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaoFiatEtorq-2.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaoFiatEtorq-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaoMarea-2.0-Turbo-1.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaoMarea-2.0-Turbo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaoMarea-2.0-Turbo-2.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaoMarea-2.0-Turbo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaoVwAP-1.8-TURBO-1.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaoVwAP-1.8-TURBO-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaoVwAP-1.8-TURBO-2.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaoVwAP-1.8-TURBO-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaoVwAp1.8-1.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaoVwAp1.8-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaoVwAp2.0-turbo-1.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaoVwAp2.0-turbo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaoVwAp2.0-turbo-2.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaoVwAp2.0-turbo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaoVwEA111-1.6-1.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaoVwEA111-1.6-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaoVwEA111-1.6-2.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaoVwEA111-1.6-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaofFiesta-1.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaofFiesta-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaofFiesta-2.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaofFiesta-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaofFiesta-Turbo-1.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaofFiesta-Turbo-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Pistoes\\PistaofFiesta-Turbo-2.png",
+      "PackagePath": "staticwebassets\\img\\Pistoes\\PistaofFiesta-Turbo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\C-SPEC2Aro15.png",
+      "PackagePath": "staticwebassets\\img\\Rodas\\C-SPEC2Aro15.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\C-SPEC2Aro15pic2.png",
+      "PackagePath": "staticwebassets\\img\\Rodas\\C-SPEC2Aro15pic2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\DcentiLM103.png",
+      "PackagePath": "staticwebassets\\img\\Rodas\\DcentiLM103.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\DcentiLM103pic2.png",
+      "PackagePath": "staticwebassets\\img\\Rodas\\DcentiLM103pic2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\GT-7BBSCH.png",
+      "PackagePath": "staticwebassets\\img\\Rodas\\GT-7BBSCH.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\GT-7BBSCHpic2.png",
+      "PackagePath": "staticwebassets\\img\\Rodas\\GT-7BBSCHpic2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\RodaEuroJDM.png",
+      "PackagePath": "staticwebassets\\img\\Rodas\\RodaEuroJDM.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\RodaFuelBurn.jpeg",
+      "PackagePath": "staticwebassets\\img\\Rodas\\RodaFuelBurn.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\RodaFuelRunner.png",
+      "PackagePath": "staticwebassets\\img\\Rodas\\RodaFuelRunner.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\RodaRotiformTUF-R.png",
+      "PackagePath": "staticwebassets\\img\\Rodas\\RodaRotiformTUF-R.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\ZeusHM10.png",
+      "PackagePath": "staticwebassets\\img\\Rodas\\ZeusHM10.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Rodas\\ZeusHM10pic2.png",
+      "PackagePath": "staticwebassets\\img\\Rodas\\ZeusHM10pic2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\Garrett-Turbo-G42-1.png",
+      "PackagePath": "staticwebassets\\img\\Turbos\\Garrett-Turbo-G42-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\HX40wBUS.png",
+      "PackagePath": "staticwebassets\\img\\Turbos\\HX40wBUS.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\HX40wBUSpic2.png",
+      "PackagePath": "staticwebassets\\img\\Turbos\\HX40wBUSpic2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\Turbina-Garret-G42-2.png",
+      "PackagePath": "staticwebassets\\img\\Turbos\\Turbina-Garret-G42-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\Turbina-Garret-GTX3582R-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Turbos\\Turbina-Garret-GTX3582R-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\Turbina-Garret-GTX3582R-2.png",
+      "PackagePath": "staticwebassets\\img\\Turbos\\Turbina-Garret-GTX3582R-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\Turbina-Garrett-Onibus-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Turbos\\Turbina-Garrett-Onibus-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\Turbina-Garrett-onibus-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Turbos\\Turbina-Garrett-onibus-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\TurbinaGarretG45-1.jpg",
+      "PackagePath": "staticwebassets\\img\\Turbos\\TurbinaGarretG45-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\TurbinaGarretG45-2.jpg",
+      "PackagePath": "staticwebassets\\img\\Turbos\\TurbinaGarretG45-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\TurboAlimentadorH1ESimples.png",
+      "PackagePath": "staticwebassets\\img\\Turbos\\TurboAlimentadorH1ESimples.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\TurboAlimentadorH1ESimplespic2.png",
+      "PackagePath": "staticwebassets\\img\\Turbos\\TurboAlimentadorH1ESimplespic2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\TurboAlimentadorS400FH12.png",
+      "PackagePath": "staticwebassets\\img\\Turbos\\TurboAlimentadorS400FH12.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\TurboAlimentadorS400FH12pic2.png",
+      "PackagePath": "staticwebassets\\img\\Turbos\\TurboAlimentadorS400FH12pic2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\TurboAlimentadorTA4502.png",
+      "PackagePath": "staticwebassets\\img\\Turbos\\TurboAlimentadorTA4502.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\Turbos\\TurboAlimentadorTA4502pic2.png",
+      "PackagePath": "staticwebassets\\img\\Turbos\\TurboAlimentadorTA4502pic2.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\conta.png",
+      "PackagePath": "staticwebassets\\img\\conta.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\gerente.png",
+      "PackagePath": "staticwebassets\\img\\gerente.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\hamburguer.png",
+      "PackagePath": "staticwebassets\\img\\hamburguer.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\lupa.png",
+      "PackagePath": "staticwebassets\\img\\lupa.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\piston.png",
+      "PackagePath": "staticwebassets\\img\\piston.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\rodas.png",
+      "PackagePath": "staticwebassets\\img\\rodas.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\sair.png",
+      "PackagePath": "staticwebassets\\img\\sair.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\img\\turbo.png",
+      "PackagePath": "staticwebassets\\img\\turbo.png"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Vitor\\Documents\\ProjetoDs\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProjetoDs.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProjetoDs.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProjetoDs.props",
+      "PackagePath": "build\\ProjetoDs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjetoDs.props",
+      "PackagePath": "buildMultiTargeting\\ProjetoDs.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProjetoDs.props",
+      "PackagePath": "buildTransitive\\ProjetoDs.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

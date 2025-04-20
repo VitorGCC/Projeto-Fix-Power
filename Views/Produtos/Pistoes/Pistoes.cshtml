@@ -1,0 +1,219 @@
+﻿@{
+    ViewData["Title"] = "Produtos";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+@{
+    Layout = "_Layout";
+}
+@section styles {
+    <link rel="stylesheet" href="~/css/produtos.css">
+}
+
+<body>
+    <div class="col-content Pagina">
+        <div class="produtos">
+            <span class="breadcrumb-item flex align-center">
+                <a href="/" class="home">Home</a>
+            </span>
+            <span class="breadcrumb-item">Pistoes</span>
+        </div>
+
+        <div class="nomeItem">
+            <h1>Pistoes</h1>
+        </div>
+
+        @* PRIMEIRA FILEIRA ----------------------------------------------------*@
+        <div class="d-flex justify-content-center mt-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <a title="Pistao Ap1.8" asp-controller="Produtos" asp-action="Ap1_8">
+                            <section class="imgEscape">
+                            <img src="~/img/Pistoes/PistaoVwAP1.8-1.png" class="card-img-top" alt="Pistao Ap 1.8"
+                                id="C-SPEC">
+                                </section>
+                            <div class="card-body">
+                                <p class="card-title">Pistao Ap1.8</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 3.075,00</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Pistao Marea 2.0 Turbo" asp-controller="Produtos" asp-action="Marea">
+                            <section class="imgEscape">
+                            <img src="~/img/Pistoes/PistaoMarea-2.0-Turbo-1.png" class="card-img-top" alt="Pistao Marea 2.0 Turbo" id="Marea 2.0 turbo">
+                            </section>
+                            <div class="card-body">
+                                <p class="card-title">Pistao Marea 2.0 Turbo</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Pistao Fiat Etorq" asp-controller="Produtos" asp-action="Etorq">
+                            <section class="imgEscape">
+                            <img src="~/img/Pistoes/PistaoFiatEtorq-1.png" class="card-img-top" alt="Pistao Fiat Etorq" id="Fiat Etorq">
+                            </section>
+                            <div class="card-body">
+                                <p class="card-title">Pistao Fiat Etorq</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Pistao Ford Fiesta" asp-controller="Produtos" asp-action="Fiesta">
+                            <section class="imgEscape">
+                            <img src="~/img/Pistoes/PistaofFiesta-1.png" class="card-img-top" alt="Pistao Ford Fiesta" id="Ford Fiesta">
+                            </section>
+                            <div class="card-body">
+                                <p class="card-title">Pistao Ford Fiesta</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @* SEGUNDA FILEIRA -----------------------------------------------------*@
+        <div class="d-flex justify-content-center mt-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <a title="Pistao Ford Fiesta Turbo" asp-controller="Produtos" asp-action="FiestaTurbo">
+                            <section class="imgEscape">
+                            <img src="~/img/Pistoes/PistaofFiesta-Turbo-1.png" class="card-img-top" alt="Pistao Ford Fiesta Turbo"
+                                id="Fiesta turbo">
+                                </section>
+                            <div class="card-body">
+                                <p class="card-title">Pistao Ford Fiesta Turbo</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 3.075,00</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Pistao VW AP 1.8 TURBO" asp-controller="Produtos" asp-action="Ap1_8Turbo">
+                            <section class="imgEscape">
+                            <img src="~/img/Pistoes/PistaoVwAP-1.8-TURBO-1.png" class="card-img-top" alt="Pistao VW AP 1.8 TURBO" id="AP 1.8 TURBO">
+                            </section> 
+                            <div class="card-body">
+                                <p class="card-title">Pistao VW AP 1.8 TURBO</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Pistao VW AP 2.0 TURBO" asp-controller="Produtos" asp-action="Ap2_0Turbo">
+                            <section class="imgEscape">
+                            <img src="~/img/Pistoes/PistaoVwAp2.0-turbo-1.png" class="card-img-top" alt="Pistao VW AP 2.0 TURBO" id="AP 2.0 turbo">
+                            </section>
+                            <div class="card-body">
+                                <p class="card-title">Pistao VW AP 2.0 TURBO</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Pistao VW EA111 1.6" asp-controller="Produtos" asp-action="Ea111">
+                            <section class="imgEscape">
+                            <img src="~/img/Pistoes/PistaoVwEA111-1.6-1.png" class="card-img-top" alt="Pistao VW EA111 1.6" id="EA111">
+                            </section>
+                            <div class="card-body">
+                                <p class="card-title">Pistao VW EA111 1.6</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

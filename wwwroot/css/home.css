@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 1080px) {
+  html {
+    font-size: 16px;
+  }
+  .container, .container-md, .container-sm {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#carouselExampleControls {
+  margin: 20px auto;
+  max-height: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+#carouselExampleControls img {
+  object-fit: cover;
+  height: 450px;
+  width: 100%;
+}
+
+.h2Turbos {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.h2Turbos .icon-image {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.h2Pistoes {
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.h2Pistoes .icon-image {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.h2Rodas {
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.h2Rodas .icon-image {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.card {
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card p{
+  font-size: 17px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.row {
+  width: 70%;
+  margin: -4 auto;
+}
+
+.card a{
+  text-decoration: none;
+  color: black !important;
+}
+
+.detalhes-valor-produto{
+  text-align: center;
+}
+
+.old-price{
+  color: rgb(68, 68, 68);
+  font-size: 13px;
+  text-decoration: line-through;
+}
+
+.price-big{
+  font-size: 20px;
+  color: #5c8994;
+  font-weight: bold !important;
+  line-height: 21px;
+}
+
+.tipo-valor{
+  color: rgb(68, 68, 68);
+  font-size: 13px;
+  padding: 0 1px;
+}
+
+.secondary-price{
+  color: rgb(68, 68, 68);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#C-SPEC {
+  height: 240px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+#Dcenti{
+  height: 240px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+#GT-7BBSCH{
+  height: 240px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+#ZeusHM10{
+  height: 240px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}

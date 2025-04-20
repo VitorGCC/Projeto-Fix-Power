@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+  height: 100vh !important;
+  }
+  }
+  .carrinho{
+    margin-top: 80px;
+    border-radius: 15px;
+  }

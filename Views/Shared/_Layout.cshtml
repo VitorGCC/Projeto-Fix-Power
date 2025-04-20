@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProjetoDs</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ProjetoDs.styles.css" asp-append-version="true" />
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("styles", required: false)
+</head>
+
+<body>
+    <header>
+        <section class="nomeElogo">
+            <section class="logo">
+                <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/LogoWB.png" alt=""></a>
+            </section>
+            <a asp-controller="Home" asp-action="Index" class="sim">
+                <h3 class="nomeLogo">fix power</h3>
+            </a>
+        </section>
+        <section class="pesquisa">
+            <form asp-controller="Search" asp-action="index" method="get" class="form-inline my-2 my-lg-0 search">
+                <input class="form-control searchbar" type="search" placeholder="Faça uma pesquisa" aria-label="Search"
+                    name="query">
+                <button class="btn btnPesquisa" type="submit"><img src="~/img/lupa.png" alt=""></button>
+            </form>
+        </section>
+        <section class="atalhos">
+    <section class="menuLateral">
+        <!-- Navbar com botão para abrir o menu lateral -->
+        <nav class="navbar navbar-light navB">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+                    aria-controls="offcanvasMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- Substitua o ícone padrão por uma imagem -->
+                    <img src="~/img/hamburguer.png" alt="Menu Icon">
+                </button>
+            </div>
+        </nav>
+        <!-- Menu Lateral -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header">
+                <h2 class="offcanvas-title" id="offcanvasMenuLabel">Categorias</h2>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                    <!-- Peças de Reparo -->
+                    <li class="nav-item">
+                        <b>
+                            <h5>Peças de Reparo</h5>
+                        </b>
+                        <ul class="navbar-nav ms-3">
+                            <li class="nav-item"><a class="nav-link" asp-controller="Produtos"
+                                    asp-action="Pistoes">Componentes do Motor</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Produtos"
+                                    asp-action="Escapamentos">Sistema de Escape</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Produtos"
+                                    asp-action="Rodas">Rodas</a></li>
+                        </ul>
+                    </li>
+                    <!-- Peças de Tuning -->
+                    <li class="nav-item">
+                        <b>
+                            <h5>Peças de Tuning</h5>
+                        </b>
+                        <ul class="navbar-nav ms-3">
+                            <li class="nav-item"><a class="nav-link" asp-controller="Produtos"
+                                    asp-action="Turbos">Performance</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <ul>
+                    <li><a asp-controller="Produto" asp-action="Index"><img src="~/img/gerente.png" alt="Gerente"></a>
+                    </li>
+        <li><a asp-controller="Carrinho" asp-action="Index"><img src="~/img/Carrinho.png" alt="Carrinho"></a>
+        </li>
+        <li><a asp-controller="Login" asp-action="Index"><img src="~/img/conta.png" alt="Conta"></a></li>
+        <li><a asp-controller="Login" asp-action="Sair"><img src="~/img/Sair.png" alt="Conta"></a></li>
+    </ul>
+</section>        
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+
+        </main>
+    </div>
+    <footer class="footer-cadastro">
+        <div class="container">
+            <h2>Fique por dentro das novidades</h2>
+            <p>Cadastre-se e receba dicas e novidades de nossa loja.</p>
+            <p>&copy; FixPower - 2024 Ltda.</p>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

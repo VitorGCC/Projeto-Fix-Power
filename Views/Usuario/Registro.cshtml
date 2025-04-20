@@ -1,0 +1,64 @@
+﻿@using ProjetoDs.Enums
+@model UsuarioModel
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Novo Usuário</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM4rj2u8zZ1H9qPpG5Q7eD4hT5gT3C3y7Y1K5" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://mdbcdn.com/css/mdb.min.css"> <!-- Inclua seu CSS MDB aqui -->
+    <link rel="stylesheet" href="~/css/login.css">
+</head>
+
+<body>
+    <form asp-controller="Usuario" asp-action="Criar" method="post">
+        <h2 id="registerFormTitle" class="mb-4 text-center">Registrar Novo Usuário</h2>
+
+        <!-- Campo de nome -->
+        <div data-mdb-input-init class="form-outline mb-3">
+            <input type="text" asp-for="Nome" id="name" class="form-control" required aria-required="true" />
+            <label class="form-label" for="name">Nome</label>
+        </div>
+
+        <!-- Campo de email -->
+        <div data-mdb-input-init class="form-outline mb-3">
+            <input type="email" asp-for="Email" id="email" class="form-control" required aria-required="true" />
+            <label class="form-label" for="email">Endereço de e-mail</label>
+        </div>
+        <!-- Campo de login -->
+        <div data-mdb-input-init class="form-outline mb-3">
+            <label class="form-label" asp-for ="Perfil" for="login">perfil</label>
+            <select asp-for="Perfil" class="form-control" id="">
+                <option value="0">Selecione:</option>
+                <option value="@PerfilEnum.Admin">Administrador</option>
+                <option value="@PerfilEnum.Padrao">Padrão</option>
+            </select>
+        </div>
+        <!-- Campo de perfil -->
+        <div data-mdb-input-init class="form-outline mb-3">
+            <input type="text" id="login" asp-for="Login" class="form-control" required aria-required="true" />
+            <label class="form-label" for="login">Login</label>
+        </div>
+
+        <!-- Campo de senha -->
+        <div data-mdb-input-init class="form-outline mb-3">
+            <input type="password" id="password" asp-for="Senha" class="form-control" required aria-required="true" />
+            <label class="form-label" for="Senha">Senha</label>
+        </div>
+
+        <!-- Botão de envio -->
+        <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-3">Registrar</button>
+
+        <!-- Link para voltar ao login -->
+        <div class="text-center mb-3">
+            <p>Já tem uma conta? <a role="button" asp-action="Index" asp-controller="Login">Entrar</a></p>
+        </div>
+    </form>
+
+</body>
+
+</html>

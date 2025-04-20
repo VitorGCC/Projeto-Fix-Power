@@ -1,0 +1,221 @@
+﻿@{
+    ViewData["Title"] = "Produtos";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+@{
+    Layout = "_Layout";
+}
+<link rel="stylesheet" href="~/css/produtos.css">
+@section styles {
+    <link rel="stylesheet" href="~/css/produtos.css">
+}
+
+<body>
+    <div class="col-content Pagina">
+        <div class="produtos">
+            <span class="breadcrumb-item flex align-center">
+                <a href="/" class="home">Home</a>
+            </span>
+            <span class="breadcrumb-item">Escapamentos</span>
+        </div>
+
+        <div class="nomeItem">
+            <h1>Escapamentos</h1>
+        </div>
+
+        @* PRIMEIRA FILEIRA ----------------------------------------------------*@
+        <div class="d-flex justify-content-center mt-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <a title="Escapamento Golf MK7" asp-controller="Produtos" asp-action="GolfMK7">
+                            <section class="imgEscape">
+                            <img src="~/img/Escapamentos/ESCAPAMENTO-GOLF-MK7.png" class="card-img-top" alt="Escapamento Golf MK7"
+                                id="C-SPEC">
+                                </section>
+                            <div class="card-body">
+                                <p class="card-title">Escapamento Golf MK7</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 3.075,00</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Escapamento Audi A3 Sedan" asp-controller="Produtos" asp-action="AudiA3Sedan">
+                            <section class="imgEscape">
+                            <img src="~/img/Escapamentos/ESCAPAMENTO-AUDI-A3-SEDAN.png" class="card-img-top" alt="Escapamento Audi A3 Sedan" id="A3">
+                            </section>
+                            <div class="card-body">
+                                <p class="card-title">Escapamento Audi A3 Sedan</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Escapamento Audi R8" asp-controller="Produtos" asp-action="AudiR8">
+                            <section class="imgEscape">
+                            <img src="~/img/Escapamentos/ESCAPAMENTO-AUDI-R8_1.png" class="card-img-top" alt="Escapamento Audi R8" id="R8">
+                            </section>
+                            <div class="card-body">
+                                <p class="card-title">Escapamento Audi R8</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Escapamento Audi TT 2010" asp-controller="Produtos" asp-action="AudiTT">
+                            <section class="imgEscape">
+                            <img src="~/img/Escapamentos/ESCAPAMENTO-AUDI-TT-2010_1.png" class="card-img-top" alt="Escapamento Audi TT 2010" id="TT 2010">
+                            </section>
+                            <div class="card-body">
+                                <p class="card-title">Escapamento Audi TT 2010</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @* SEGUNDA FILEIRA -----------------------------------------------------*@
+        <div class="d-flex justify-content-center mt-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col">
+                    <div class="card">
+                        <a title="Escapamento BMW 320I Saida Simples" asp-controller="Produtos" asp-action="Bmw320I">
+                            <section class="imgEscape">
+                            <img src="~/img/Escapamentos/ESCAPAMENTO-BMW-320i-SAIDA-SIMPLES-1.png" class="card-img-top" alt="Escapamento BMW 320I Saida Simples"
+                                id="320I">
+                                </section>
+                            <div class="card-body">
+                                <p class="card-title">Escapamento BMW 320I Saida Simples</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 3.075,00</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Escapamento Polo GTS 2020" asp-controller="Produtos" asp-action="Polo2020">
+                            <section class="imgEscape">
+                            <img src="~/img/Escapamentos/ESCAPAMENTO-POLO-GTS-2020-1.png" class="card-img-top" alt="Escapamento Polo GTS 2020" id="Polo2020">
+                            </section> 
+                            <div class="card-body">
+                                <p class="card-title">Escapamento Polo GTS 2020</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Escapamentos Porsche Carrera 911 991.2" asp-controller="Produtos" asp-action="Porsche991">
+                            <section class="imgEscape">
+                            <img src="~/img/Escapamentos/ESCAPAMENTO-PORSCHE-CARRERA-911-991.2-1.png" class="card-img-top" alt="Escapamentos Porsche Carrera 911 991.2" id="Carrera 991.2">
+                            </section>
+                            <div class="card-body">
+                                <p class="card-title">Escapamentos Porsche Carrera 911 991.2</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <a title="Escapamento Volks Jetta TSI" asp-controller="Produtos" asp-action="JettaTsi">
+                            <section class="imgEscape">
+                            <img src="~/img/Escapamentos/ESCAPAMENTO-VOLKSWAGEN-JETTA-TSI-1.png" class="card-img-top" alt="Escapamento Volks Jetta TSI" id="Jetta TSI">
+                            </section>
+                            <div class="card-body">
+                                <p class="card-title">Escapamento Volks Jetta TSI</p>
+                                <div class="detalhes-valor-produto">
+                                    <div class="price-product"> <span class="old-price">
+                                            R$ 1.789,00 </span>
+                                        <div class="primary-price"><span class="price-big">R$ 1.645,12</span><span
+                                                class="tipo-valor"> no
+                                                pix</span></div>
+                                        <div class="secondary-price"><span class="parcelas">6x</span>
+                                            de <span class="price-parcelado">R$ 282,67 </span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+﻿@{
+    ViewData["Title"] = "Carrinho";
+}
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/Carrinho.css" asp-append-version="true" />
+</head>
+
+<body>
+    <section class="h-100 h-custom carrinho" style="background-color: #eee;">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body p-4">
+
+                            <div class="row">
+                                <!-- Carrinho de Itens -->
+                                <div class="col-lg-7">
+                                    <h5 class="mb-3"><a href="/Catalogo" class="text-body"><i
+                                                class="fas fa-long-arrow-alt-left me-2"></i>Continuar Comprando</a></h5>
+                                    <hr>
+
+                                    <div class="d-flex justify-content-between align-items-center mb-4">
+                                        <div>
+                                            <p class="mb-1">Carrinho</p>
+                                            <p class="mb-0">Você tem @((ViewBag.Carrinho ?? new List<dynamic>()).Count) itens no seu carrinho</p>
+                                        </div>
+                                        <div>
+                                            <p class="mb-0"><span class="text-muted">Ordenado por:</span> <a href="#!"
+                                                    class="text-body">Preço <i class="fas fa-angle-down mt-1"></i></a>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Exemplo de Item - Dinâmico -->
+                                    @foreach (var item in ViewBag.Carrinho ?? new List<CarrinhoItemModel>())
+                                    {
+                                        <div class="card mb-3">
+                                            <div class="card-body">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="d-flex flex-row align-items-center">
+                                                        <div>
+                                                            <img src="@item.ImageUrl"
+                                                                class="img-fluid rounded-3" alt="Shopping item"
+                                                                style="width: 65px;">
+                                                        </div>
+                                                        <div class="ms-3">
+                                                            <h5>@item.Nome</h5>
+                                                            <p class="small mb-0">@item.Descricao</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex flex-row align-items-center">
+                                                        <div style="width: 50px;">
+                                                            <h5 class="fw-normal mb-0">@item.Quantidade</h5>
+                                                        </div>
+                                                        <div style="width: 80px;">
+                                                            <h5 class="mb-0">R$ @item.Preco</h5>
+                                                        </div>
+                                                        <a href="/Carrinho/Remover?itemId=@item.Id" style="color: #cecece;"><i
+                                                                class="fas fa-trash-alt"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+
+                                <!-- Resumo do Carrinho -->
+                                <div class="col-lg-5">
+                                    <div class="card bg-primary text-white rounded-3">
+                                        <div class="card-body">
+                                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                                <h5 class="mb-0">Detalhes do Carrinho</h5>
+                                            </div>
+
+                                            <!-- Detalhes de Pagamento -->
+                                            <p class="small mb-2">Detalhes do cartão</p>
+                                            <div>
+                                                <a href="#!" class="text-white"><i class="fab fa-cc-mastercard fa-2x me-2"></i></a>
+                                                <a href="#!" class="text-white"><i class="fab fa-cc-visa fa-2x me-2"></i></a>
+                                                <a href="#!" class="text-white"><i class="fab fa-cc-amex fa-2x me-2"></i></a>
+                                                <a href="#!" class="text-white"><i class="fab fa-cc-paypal fa-2x"></i></a>
+                                            </div>
+
+                                            <form class="mt-4">
+                                                <div class="form-outline form-white mb-4">
+                                                    <input type="text" id="cardName"
+                                                        class="form-control form-control-lg"
+                                                        placeholder="Nome no Cartão" />
+                                                    <label class="form-label" for="cardName">Nome no Cartão</label>
+                                                </div>
+
+                                                <div class="form-outline form-white mb-4">
+                                                    <input type="text" id="cardNumber"
+                                                        class="form-control form-control-lg"
+                                                        placeholder="1234 5678 9012 3457" minlength="16"
+                                                        maxlength="19" />
+                                                    <label class="form-label" for="cardNumber">Número do Cartão</label>
+                                                </div>
+
+                                                <div class="row mb-4">
+                                                    <div class="col-md-6">
+                                                        <div class="form-outline form-white">
+                                                            <input type="text" id="cardExpiry"
+                                                                class="form-control form-control-lg"
+                                                                placeholder="MM/AAAA" minlength="7" maxlength="7" />
+                                                            <label class="form-label" for="cardExpiry">Expiração</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-outline form-white">
+                                                            <input type="password" id="cardCVV"
+                                                                class="form-control form-control-lg"
+                                                                placeholder="***" minlength="3" maxlength="3" />
+                                                            <label class="form-label" for="cardCVV">CVV</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+
+                                            <hr class="my-4">
+
+                                            <!-- Resumo dos Valores -->
+                                            <div class="d-flex justify-content-between">
+                                                <p class="mb-2">Subtotal</p>
+                                                <p class="mb-2">R$ @ViewBag.Total</p>
+                                            </div>
+
+                                            <div class="d-flex justify-content-between">
+                                                <p class="mb-2">Frete</p>
+                                                <p class="mb-2">R$20.00</p>
+                                            </div>
+
+                                            <div class="d-flex justify-content-between mb-4">
+                                                <p class="mb-2">Total (Incl. taxas)</p>
+                                                <p class="mb-2">R$ @ViewBag.TotalComFrete</p>
+                                            </div>
+
+                                            <button type="submit" formaction="/Pedido/Finalizar"
+                                                class="btn btn-info btn-block btn-lg">
+                                                <span>Comprar <i class="fas fa-long-arrow-alt-right ms-2"></i></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+﻿@model ProdutoModel
+@{
+    ViewData["Title"] = "Pagina de Produto";
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Aula_17_31._10._24.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/CSS/styles.css">
+<div class="text-center">
+    <h2>Realmente deseja Deletar o Produto ( @Model.Nome )? </h2>
+    <a role="button" class="btn btn-danger btn-lg btn-block" asp-asp-controller="Produto" asp-route-id="@Model.Id" asp-action="Deletar">Confirmar</a>
+    <a role="button" asp-controller="produto" asp-action="Index" class="btn btn-secondary btn-lg btn-block">Voltar</a>
+</div>

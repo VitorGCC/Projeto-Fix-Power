@@ -1,0 +1,36 @@
+﻿@model ProdutoModel
+@{
+  ViewData["Title"] = "Pagina de Produto";
+}
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Aula_17_31._10._24.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/styles.css">
+<div class="text-center">
+  <h1>Editar Produto</h1>
+  <form asp-controller="Produto" asp-action="Editar" method="post">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Nome</label>
+      <input type="text" asp-for="Nome" class="form-control" placeholder="Seu Nome">
+    </div>
+    <div class="form-group">
+      <label for="preco">Preco</label>
+      <input type="number" step="0.01" min="0.01" max="9999999.99" asp-for="Preco" class="form-control" placeholder="2000.00" required>
+    </div>
+       <div class="form-group">
+      <label for="quantidade">Quantidade</label>
+      <input type="number" maxlength="100" asp-for="Quantidade" class="form-control" placeholder="Digite a quantidade">
+    </div>
+  <div class="form-group">
+      <label for="categoria">Categoria</label>
+      <input type="Text" maxlength="100" asp-for="Categoria" class="form-control" placeholder="Digite a Categoria">
+    </div>
+    <div class="form-group">
+      <label for="descricao">Descrição:</label>
+      <input type="text" id="descricao" asp-for="Descricao" class="form-control" name="descricao" placeholder="Digite a descricao" maxlength="15">
+    </div>
+    <button type="submit" class="btn btn-success btn-lg btn-block">Confirmar</button>
+    <a role="button" asp-controller="Produto" asp-action="Index" class="btn btn-danger btn-lg btn-block">Voltar</a>
+    <input type="hidden" asp-for="Id">
+  </form>
+</div>
